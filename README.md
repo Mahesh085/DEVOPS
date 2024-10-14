@@ -1,4 +1,5 @@
-33[1m                               DEVOPS REPOSITORY 
+                               DEVOPS REPOSITORY
+
 
 
 Hello Everyone 
