@@ -8,7 +8,7 @@ FILE COMMANDS:
 
 To create file 
 touch file1
-To create multiple files 
+To create multiple file 
 touch fi le1 file2 file3
 To create fi les on order :
 touch file{1..5}
