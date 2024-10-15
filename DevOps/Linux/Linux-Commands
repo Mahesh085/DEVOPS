@@ -6,19 +6,19 @@ df -h : used to get memory information
 
 FILE COMMANDS:
 
-To create fi le :
-touch fi le1
-To create multiple fi les :
-touch fi le1 fi le2 fi le3
+To create file 
+touch file1
+To create multiple files 
+touch fi le1 file2 file3
 To create fi les on order :
-touch fi le{1..5}
-To remove a fi le with permission:
+touch file{1..5}
+To remove a file with permission:
 rm fi lename
 To remove a fi le without permission :
 rm -f fi lename
 To remove a multiple fi les :
-rm -f fi le1 fi le2
-To remove all fi les :
+rm -f file1 fi le2
+To remove all files :
 rm -f *
 To remove all fi les which are starting with a letter :
 rm -f a*
@@ -27,7 +27,7 @@ rm -f *.txt
 
 DIRECTORY COMMANDS:
 
-To create directory :
+To create directory 
 mkdir folder1
 To create multiple folder :
 mkdir folder1 folder2
@@ -56,5 +56,9 @@ rm -rf folder
 To remove all fi les and folders :
 rm -rf *
 To print the working directory :
-pwd
-(present working directory)
+pwd (present working directory)
+To create a fi le inside a folder :
+touch foldername/fi lename
+To create a folder inside a folder :
+mkdir folder1/folder2
+
