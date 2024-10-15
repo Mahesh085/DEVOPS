@@ -1,0 +1,64 @@
+HARDWARE COMMANDS:
+
+lscpu (or) cat /proc/cpuinfo : used to get cpu info
+free (or) cat /proc/meminfo : used to get ram info
+df -h : used to get memory information
+
+FILE COMMANDS:
+
+To create file : 
+touch file1
+To create multiple file : 
+touch fi le1 file2 file3
+To create fi les on order :
+touch file{1..5}
+To remove a file with permission:
+rm fi lename
+To remove a fi le without permission :
+rm -f fi lename
+To remove a multiple fi les :
+rm -f file1 fi le2
+To remove all files :
+rm -f *
+To remove all fi les which are starting with a letter :
+rm -f a*
+To remove all txt fi les :
+rm -f *.txt
+
+DIRECTORY COMMANDS:
+
+To create directory 
+mkdir folder1
+To create multiple folder :
+mkdir folder1 folder2
+To create folders on order :
+mkdir folder{1..5}
+To remove a folder:
+rmdir folder
+To remove a multiple folder :
+rmdir folder1 folder2
+To remove all folder :
+rmdir *
+To remove all folder which are starting with a letter :
+rmdir a*
+To change the directory :
+cd folder1
+To go to root directory :
+cd (or) cd ~
+To go back to previous folder :
+cd -
+To go back one steps (one folder back) :
+cd ..
+To go back two steps (two folders back) :
+cd ../../
+To delete the directory :
+rm -rf folder
+To remove all fi les and folders :
+rm -rf *
+To print the working directory :
+pwd (present working directory)
+To create a fi le inside a folder :
+touch foldername/fi lename
+To create a folder inside a folder :
+mkdir folder1/folder2
+
