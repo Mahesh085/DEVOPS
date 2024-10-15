@@ -1,0 +1,26 @@
+HARDWARE COMMANDS:
+
+lscpu (or) cat /proc/cpuinfo : used to get cpu info
+free (or) cat /proc/meminfo : used to get ram info
+df -h : used to get memory information
+
+FILE COMMANDS:
+
+To create fi le :
+touch fi le1
+To create multiple fi les :
+touch fi le1 fi le2 fi le3
+To create fi les on order :
+touch fi le{1..5}
+To remove a fi le with permission:
+rm fi lename
+To remove a fi le without permission :
+rm -f fi lename
+To remove a multiple fi les :
+rm -f fi le1 fi le2
+To remove all fi les :
+rm -f *
+To remove all fi les which are starting with a letter :
+rm -f a*
+To remove all txt fi les :
+rm -f *.txt
